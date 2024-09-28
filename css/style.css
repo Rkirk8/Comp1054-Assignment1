@@ -1,0 +1,235 @@
+/* Colours */
+:root {
+  --dark-blue: #31365e;
+  --light-grey: #c9c9c9;
+}
+
+/* Fonts */
+  .dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .six-caps-regular {
+    font-family: "Six Caps", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .shadows-into-light-regular {
+    font-family: "Shadows Into Light", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .luckiest-guy-regular {
+    font-family: "Luckiest Guy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-grey);
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: var(--dark-blue);
+  color: #ffec89;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Luckiest Guy', system-ui;
+  font-size: 3rem;
+}
+
+header h2 {
+  font-family: 'Shadows Into Light', system-ui;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Intro Section */
+#lyrics .Intro p {
+  font-family: 'Six Caps', system-ui;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Verse Sections */
+.Verse1, .Verse2 {
+  margin-bottom: 20px;
+}
+
+/* Sloth classes */
+.sloth p {
+  font-family: 'Shadows Into Light', system-ui;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.sloth span {
+  font-family: 'Luckiest Guy', system-ui;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Ruby Classes */
+.ruby p {
+font-family: 'Luckiest Guy', system-ui;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.ruby-toneChange p {
+font-family: 'Dela Gothic One', system-ui;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.Verse2 .ruby p {
+font-family: 'Sofadi One', system-ui;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.Verse2 .ruby span {
+font-weight: bold;
+}
+
+.ruby-dark p {
+font-family: 'Dela Gothic One', system-ui;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.ender p {
+font-family: 'Shadows Into Light', system-ui;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+/* Video Section */
+#video iframe {
+display: block;
+margin: 0 auto 20px;
+}
+
+/* Footer */
+footer {
+background: var(--dark-blue);
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+}
+
+footer p {
+font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+}
+
